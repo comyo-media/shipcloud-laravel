@@ -1,0 +1,30 @@
+{
+    "name": "comyo-media/shipcloud-laravel",
+    "description": "shipcloud laravel wrapper",
+    "keywords": [
+        "php",
+        "shipcloud",
+        "api",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "comyo.media",
+            "email": "support@comyo-media.de"
+        },
+        {
+            "name": "Dennis Oderwald",
+            "email": "oderwald@comyo-media.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "comyo-media/shipcloud-php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ComyoMedia\\ShipcloudLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
