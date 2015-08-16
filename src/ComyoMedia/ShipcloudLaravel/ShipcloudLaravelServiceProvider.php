@@ -18,9 +18,9 @@ class ShipcloudLaravelServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
-        $app = $this->app;
-        $this->package('comyo-media/shipcloud-laravel', 'shipcloud');
+        $this->publishes([
+            __DIR__.'/config.php' => config_path('shipcloud.php')
+        ]);
     }
 
     /**
