@@ -1,6 +1,6 @@
 # shipcloud-laravel
 
-An easy-to-use PHP package to communicate with [shipcloud's API](http://developers.shipcloud.io) with Laravel 5+.
+An easy-to-use PHP package to communicate with [shipcloud's API](http://developers.shipcloud.io) & Laravel 5+.
 
 ### Installation
 
