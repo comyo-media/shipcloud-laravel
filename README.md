@@ -4,13 +4,13 @@ An easy-to-use PHP package to communicate with [shipcloud's API](http://develope
 
 ### Installation
 
-1. Install the `comyo-media/shipcloud-laravel` package
+1) Install the `comyo-media/shipcloud-laravel` package
 
 ```shell
 $ composer require comyo-media/shipcloud-laravel
 ```
 
-2. Update `config/app.php` to activate shipcloud
+2) Update `config/app.php` to activate shipcloud
 
 ```php
 # Add `ShipcloudLaravelServiceProvider` to the `providers` array
@@ -26,13 +26,13 @@ $ composer require comyo-media/shipcloud-laravel
 )
 ```
 
-3. Create the configuration file `config/shipcloud.php`:
+3) Create the configuration file `config/shipcloud.php`:
 
 ```shell
 $ php artisan vendor:publish
 ```
 
-4. Configure your `api_key` in your `.env` file:
+4) Configure your `api_key` in your `.env` file:
 
 ```shell
 SHIPCLOUD_API_KEY=YOUR-API-KEY-HERE
