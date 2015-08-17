@@ -10,7 +10,7 @@ An easy-to-use PHP package to communicate with [shipcloud's API](http://develope
 $ composer require comyo-media/shipcloud-laravel
 ```
 
-1. Update `config/app.php` to activate Shipcloud
+2. Update `config/app.php` to activate shipcloud
 
 ```php
 # Add `ShipcloudLaravelServiceProvider` to the `providers` array
@@ -26,13 +26,13 @@ $ composer require comyo-media/shipcloud-laravel
 )
 ```
 
-1. Create the configuration file `config/shipcloud.php`:
+3. Create the configuration file `config/shipcloud.php`:
 
 ```shell
 $ php artisan vendor:publish
 ```
 
-1. Configure your `api_key` in your `.env` file:
+4. Configure your `api_key` in your `.env` file:
 
 ```shell
 SHIPCLOUD_API_KEY=YOUR-API-KEY-HERE
